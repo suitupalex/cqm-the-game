@@ -213,6 +213,9 @@ public class GameLogic : MonoBehaviour {
     if (Input.GetKeyDown(KeyCode.R)) {
       ResetGame();
     }
+
+    countdownText.color = RED;
+    countdownText.text = "GAME OVER";
   }
 
   void ResetGame() {
